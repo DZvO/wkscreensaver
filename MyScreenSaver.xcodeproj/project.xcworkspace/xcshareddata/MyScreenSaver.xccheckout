@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F97501FF-CDE6-420F-A931-D9920AB6E77F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyScreenSaver</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B0C26B55-CF7C-4931-AC5A-EC8B9C43BA74</key>
+		<string>https://github.com/Compendium/MyScreenSaver.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyScreenSaver.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B0C26B55-CF7C-4931-AC5A-EC8B9C43BA74</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Compendium/MyScreenSaver.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B0C26B55-CF7C-4931-AC5A-EC8B9C43BA74</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B0C26B55-CF7C-4931-AC5A-EC8B9C43BA74</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyScreenSaver</string>
+		</dict>
+	</array>
+</dict>
+</plist>

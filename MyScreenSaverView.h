@@ -11,6 +11,10 @@
 	IBOutlet id drawFilledShapesOption;
 	IBOutlet id drawOutlinedShapesOption;
 	IBOutlet id drawBothOption;
+	NSString * username;
+	NSString * kanjis;
+	NSMutableDictionary * kanji_status;
+	NSImage * background;
 }
 
 @end
