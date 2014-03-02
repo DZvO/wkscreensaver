@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3B1E4E0B18BFCFDC007680D6 /* wk.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E4E0A18BFCFDC007680D6 /* wk.png */; };
-		8D255AC70486D3F9007BF209 /* MyScreenSaver_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* MyScreenSaver_Prefix.pch */; };
-		8D255AC80486D3F9007BF209 /* MyScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* MyScreenSaverView.h */; };
+		3B92622018C3B10600FEED5E /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B92621F18C3B10600FEED5E /* Readme.md */; };
+		8D255AC70486D3F9007BF209 /* wkscreensaver_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* wkscreensaver_Prefix.pch */; };
+		8D255AC80486D3F9007BF209 /* wkscreensaverview.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* wkscreensaverview.h */; };
 		8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		8D255ACC0486D3F9007BF209 /* MyScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* MyScreenSaverView.m */; };
+		8D255ACC0486D3F9007BF209 /* wkscreensaverview.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* wkscreensaverview.m */; };
 		8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
 		D34A24620901859E002122D1 /* ConfigureSheet.nib in Resources */ = {isa = PBXBuildFile; fileRef = D34A24600901859E002122D1 /* ConfigureSheet.nib */; };
@@ -23,13 +24,14 @@
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		32DBCFA80370C50100C91783 /* MyScreenSaver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScreenSaver_Prefix.pch; sourceTree = "<group>"; };
+		32DBCFA80370C50100C91783 /* wkscreensaver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wkscreensaver_Prefix.pch; sourceTree = "<group>"; };
 		3B1E4E0A18BFCFDC007680D6 /* wk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wk.png; sourceTree = "<group>"; };
+		3B92621F18C3B10600FEED5E /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
 		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D255AD30486D3F9007BF209 /* MyScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D255AD30486D3F9007BF209 /* wkscreensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wkscreensaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34A24610901859E002122D1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ConfigureSheet.nib; sourceTree = "<group>"; };
-		F50079790118B23001CA0E54 /* MyScreenSaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScreenSaverView.h; sourceTree = "<group>"; };
-		F500797A0118B23001CA0E54 /* MyScreenSaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScreenSaverView.m; sourceTree = "<group>"; };
+		F50079790118B23001CA0E54 /* wkscreensaverview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wkscreensaverview.h; sourceTree = "<group>"; };
+		F500797A0118B23001CA0E54 /* wkscreensaverview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wkscreensaverview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		089C166AFE841209C02AAC07 /* MyScreenSaver */ = {
 			isa = PBXGroup;
 			children = (
+				3B92621F18C3B10600FEED5E /* Readme.md */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
 				32DBCFA70370C4F300C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
@@ -80,8 +83,8 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F50079790118B23001CA0E54 /* MyScreenSaverView.h */,
-				F500797A0118B23001CA0E54 /* MyScreenSaverView.m */,
+				F50079790118B23001CA0E54 /* wkscreensaverview.h */,
+				F500797A0118B23001CA0E54 /* wkscreensaverview.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -107,7 +110,7 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D255AD30486D3F9007BF209 /* MyScreenSaver.saver */,
+				8D255AD30486D3F9007BF209 /* wkscreensaver.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +118,7 @@
 		32DBCFA70370C4F300C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCFA80370C50100C91783 /* MyScreenSaver_Prefix.pch */,
+				32DBCFA80370C50100C91783 /* wkscreensaver_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -127,17 +130,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D255AC70486D3F9007BF209 /* MyScreenSaver_Prefix.pch in Headers */,
-				8D255AC80486D3F9007BF209 /* MyScreenSaverView.h in Headers */,
+				8D255AC70486D3F9007BF209 /* wkscreensaver_Prefix.pch in Headers */,
+				8D255AC80486D3F9007BF209 /* wkscreensaverview.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8D255AC50486D3F9007BF209 /* MyScreenSaver */ = {
+		8D255AC50486D3F9007BF209 /* wkscreensaver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D34A2442090173A6002122D1 /* Build configuration list for PBXNativeTarget "MyScreenSaver" */;
+			buildConfigurationList = D34A2442090173A6002122D1 /* Build configuration list for PBXNativeTarget "wkscreensaver" */;
 			buildPhases = (
 				8D255AC60486D3F9007BF209 /* Headers */,
 				8D255AC90486D3F9007BF209 /* Resources */,
@@ -149,10 +152,10 @@
 			);
 			dependencies = (
 			);
-			name = MyScreenSaver;
+			name = wkscreensaver;
 			productInstallPath = "$(HOME)/Library/Screen Savers";
 			productName = MyScreenSaver;
-			productReference = 8D255AD30486D3F9007BF209 /* MyScreenSaver.saver */;
+			productReference = 8D255AD30486D3F9007BF209 /* wkscreensaver.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +166,7 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 			};
-			buildConfigurationList = D34A2446090173A6002122D1 /* Build configuration list for PBXProject "MyScreenSaver" */;
+			buildConfigurationList = D34A2446090173A6002122D1 /* Build configuration list for PBXProject "wkscreensaver" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -174,7 +177,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D255AC50486D3F9007BF209 /* MyScreenSaver */,
+				8D255AC50486D3F9007BF209 /* wkscreensaver */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +189,7 @@
 			files = (
 				8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */,
 				D34A24620901859E002122D1 /* ConfigureSheet.nib in Resources */,
+				3B92622018C3B10600FEED5E /* Readme.md in Resources */,
 				3B1E4E0B18BFCFDC007680D6 /* wk.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,7 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D255ACC0486D3F9007BF209 /* MyScreenSaverView.m in Sources */,
+				8D255ACC0486D3F9007BF209 /* wkscreensaverview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +241,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Library/Screen Savers/";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				COPY_PHASE_STRIP = NO;
 				DEBUGGING_SYMBOLS = YES;
@@ -248,7 +252,7 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MyScreenSaver_Prefix.pch;
+				GCC_PREFIX_HEADER = wkscreensaver_Prefix.pch;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
@@ -261,7 +265,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PREBINDING = NO;
-				PRODUCT_NAME = MyScreenSaver;
+				PRODUCT_NAME = wkscreensaver;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -284,7 +288,7 @@
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MyScreenSaver_Prefix.pch;
+				GCC_PREFIX_HEADER = wkscreensaver_Prefix.pch;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
@@ -296,7 +300,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PREBINDING = NO;
-				PRODUCT_NAME = MyScreenSaver;
+				PRODUCT_NAME = wkscreensaver;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -316,7 +320,7 @@
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MyScreenSaver_Prefix.pch;
+				GCC_PREFIX_HEADER = wkscreensaver_Prefix.pch;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
@@ -328,7 +332,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PREBINDING = NO;
-				PRODUCT_NAME = MyScreenSaver;
+				PRODUCT_NAME = wkscreensaver;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -360,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D34A2442090173A6002122D1 /* Build configuration list for PBXNativeTarget "MyScreenSaver" */ = {
+		D34A2442090173A6002122D1 /* Build configuration list for PBXNativeTarget "wkscreensaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D34A2443090173A6002122D1 /* Development */,
@@ -370,7 +374,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
 		};
-		D34A2446090173A6002122D1 /* Build configuration list for PBXProject "MyScreenSaver" */ = {
+		D34A2446090173A6002122D1 /* Build configuration list for PBXProject "wkscreensaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D34A2447090173A6002122D1 /* Development */,

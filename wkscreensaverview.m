@@ -1,9 +1,4 @@
-//
-//  MyScreenSaverView.m
-//  Cocoa Dev Central: Write a Screen Saver: Part 1
-//
-
-#import "MyScreenSaverView.h"
+#import "wkscreensaverview.h"
 
 @interface NSAttributedString (Hyperlink)
 +(id)hyperlinkFromString:(NSString*)inString withURL:(NSURL*)aURL;
@@ -33,7 +28,7 @@
 }
 @end
 
-@implementation MyScreenSaverView
+@implementation wkscreensaverview
 
 static NSString * const MyModuleName = @"com.yournamehere.MyScreenSaver";
 

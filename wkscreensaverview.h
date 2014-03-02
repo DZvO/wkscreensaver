@@ -1,11 +1,6 @@
-//
-//  MyScreenSaverView.h
-//  Cocoa Dev Central: Write a Screen Saver: Part 1
-//
-
 #import <ScreenSaver/ScreenSaver.h>
 
-@interface MyScreenSaverView : ScreenSaverView 
+@interface wkscreensaverview : ScreenSaverView
 {
 	IBOutlet id configSheet;
 	IBOutlet NSTextField* wk_apikey_textfield;
