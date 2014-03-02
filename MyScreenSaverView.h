@@ -8,13 +8,16 @@
 @interface MyScreenSaverView : ScreenSaverView 
 {
 	IBOutlet id configSheet;
-	IBOutlet id drawFilledShapesOption;
-	IBOutlet id drawOutlinedShapesOption;
-	IBOutlet id drawBothOption;
+	IBOutlet NSTextField* wk_apikey_textfield;
+	IBOutlet NSTextField * wk_apikey_url;
+	
+	NSString * wk_apikey;
 	NSString * username;
 	NSString * kanjis;
+	NSString * errormessage;
 	NSMutableDictionary * kanji_status;
 	NSImage * background;
-}
+
+};
 
 @end
